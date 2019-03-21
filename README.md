@@ -2,6 +2,9 @@
 
 This repository contains code that can be used to integrate the [Nexmo Java Client Library](https://github.com/Nexmo/nexmo-java) and the [Spark Framework](http://sparkjava.com/).
 
+## Deploy to Heroku
+[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://nexmo.dev/nexmo-spark-kotlin-heroku)
+
 ## How to Use
 First clone the repository into a directory of your choosing:
 

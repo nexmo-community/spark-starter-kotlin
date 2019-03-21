@@ -31,3 +31,13 @@ dependencies {
 }
 
 mainClassName = 'com.nexmo.starter.AppKt'
+
+task stage(dependsOn: ['installDist', 'clean'])
+installDist.mustRunAfter clean
+
+gradle.taskGraph.whenReady {
+    taskGraph ->
+        if (taskGraph.hasTask(stage)) {
+            test.enabled = false
+        }
+}
