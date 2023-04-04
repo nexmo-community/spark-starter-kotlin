@@ -1,11 +1,20 @@
-# Spark Starter Kotlin
+# ⚠️ This repository is no longer maintained.
+
+<img src="https://developer.nexmo.com/assets/images/Vonage_Nexmo.svg" height="48px" alt="Nexmo is now known as Vonage" />
+
+## Support Notice
+This is an archived repository. If you have any questions, feel free to reach out to us at devrel@vonage.com or through our Community Slack at https://developer.vonage.com/community/slack.
+
+<hr />
+
+## Spark Starter Kotlin
 
 This repository contains code that can be used to integrate the [Nexmo Java Client Library](https://github.com/Nexmo/nexmo-java) and the [Spark Framework](http://sparkjava.com/).
 
-## Deploy to Heroku
+### Deploy to Heroku
 [![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://nexmo.dev/nexmo-spark-kotlin-heroku)
 
-## How to Use
+### How to Use
 First clone the repository into a directory of your choosing:
 
 ```sh
@@ -26,7 +35,7 @@ Windows:
 
 ![Console output showing that the server is running](application-running.png)
 
-## How to Modify
+### How to Modify
 
 All of the code can be found in the `com.nexmo.starter.App` class:
 
